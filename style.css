@@ -1,0 +1,53 @@
+body {
+    background-color: slategrey;
+    font-family: Arial, sans-serif;
+}
+
+h1.main {
+    font-style: italic;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75em;
+}
+
+table.menu {
+    background-color: darkgreen;
+    border: 0.5em solid black;
+    table-layout: fixed;
+}
+
+table.menu td {
+    border-right: 0.1em solid black;
+    font-size: x-large;
+    text-align: center;
+}
+
+table.menu td.lastchild {
+    border-right: none;
+}
+
+table.upper td.rightmost {
+    text-align: right;
+}
+
+div.plaintext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75em;
+}
+
+div.plaintext table {
+    table-layout: fixed;
+}
+
+div.plaintext img {
+    height: 250px;
+    width: 200px;
+}
