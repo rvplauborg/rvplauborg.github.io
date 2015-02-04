@@ -41,6 +41,9 @@ table.menu td {
 table.menu td.lastchild {
     border-right: none;
 }
+table.upper td.center {
+    text-align: center;
+}
 
 table.upper td.rightmost {
     text-align: right;
