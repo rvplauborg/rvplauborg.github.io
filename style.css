@@ -21,7 +21,12 @@ table.menu {
     background-color: darkgreen;
     border: 0.5em solid black;
     table-layout: fixed;
+}
 
+a {
+    text-decoration: none;
+    font-style: italic;
+    color: blue;
 }
 
 table.menu a{
