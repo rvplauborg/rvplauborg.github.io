@@ -3,10 +3,11 @@ body {
     font-family: Arial, sans-serif;
 }
 
-h1.main {
+.main {
     font-style: italic;
+    font-family: Georgia;
     font-size: 5em;
-    text-align: center;
+    text-shadow: 0 0 4px black;
     margin-top: 1%;
     margin-bottom: 0;
 }
@@ -17,7 +18,7 @@ table {
     width: 75em;
 }
 
-table.menu {
+.menu {
     background-color: darkgreen;
     border: 0.5em solid black;
     table-layout: fixed;
@@ -29,46 +30,55 @@ a {
     color: blue;
 }
 
-table.menu a{
+a:hover {
+    font-weight: bold;
+}
+
+.menu a{
     display: block;
     text-decoration: none;
     color: black;
     font-family: "Georgia", serif;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px 5px black;
 }
 
-table.menu td {
+.menu td {
     border-right: 0.1em solid black;
-    font-size: x-large;
+    font-size: 2em;
     text-align: center;
 }
 
-table.menu td.lastchild {
+.menu td:last-child{
     border-right: none;
 }
-table.upper td.center {
+.upper td.center {
     text-align: center;
 }
 
-table.upper td.rightmost {
+.upper td.rightmost {
     text-align: right;
 }
 
-table.games td {
+.games td  {
     text-align: center;
 }
 
-div.plaintext {
+.games td img:hover {
+    box-shadow: 0 0 25px black
+}
+
+.plaintext {
     margin-left: auto;
     margin-right: auto;
     width: 75em;
 }
 
-div.plaintext table {
+.plaintext table {
     table-layout: fixed;
 }
 
-div.plaintext img {
+.plaintext img {
     height: 250px;
     width: 225px;
+    border-radius: 25px;
 }
