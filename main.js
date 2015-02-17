@@ -1,6 +1,7 @@
 $(document).ready(function() {
         $(".games img").hover(imgHoverIn, imgHoverOut);
-        });
+        
+});
 
 function imgHoverIn() {
     $(this).animate({
